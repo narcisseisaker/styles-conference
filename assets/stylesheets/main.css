@@ -1,1 +1,44 @@
+header {
+    display: flex;
+    flex-direction: row;
+   
+}
+ul{
+    display: flex;
+    /* list-style: none; */
+    margin-top: 35px;
+}
+ul li{
+    list-style: none;
+    margin-left: 5px;
+    text-decoration: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
 
+.register{
+    display: flex;
+}
+.register-content{
+    /* display: inline-block; */
+    width: 400px;
+    height: 300px
+}
+.register-background{
+    /* display: inline-block; */
+    background-image:url("images/4.png");
+    width: 700px;
+    height: 300px
+}
+.speakers div .spon {
+    display: inline-block;
+    width: auto;
+    border-style: double;
+    border-width: 5px;
+    border-color: blueviolet;   
+}
+.footer{
+    display: flex;
+}
