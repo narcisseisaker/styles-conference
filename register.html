@@ -1,28 +1,55 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DStyles conference</title>
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
 </head>
 <body>
+  
+    <header class="hero container">
+        <h1>Styles Conference</h1>
+        <h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+    </header>
+        <nav class="primary-nav">
+           <a href="index.html" class="btn btn-alt">About</a>
+           <a href="venue.html" class="btn btn-alt">Venue</a>
+           <a href="speakers.html" class="btn btn-alt">Speakers</a>
+           <a href="register.html" class="btn btn-alt">Register</a>
+           <a href="contact.html" class="btn btn-alt">Contact</a>
+        </nav> 
+        
+    </header>
     
-    <form class="box" action="" method="post">
-        <h1 class="box-title">S'inscrire</h1>
-        <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
-        <input type="text" class="box-input" name="email" placeholder="Email" required />
-        <input type="password" class="box-input" name="password" placeholder="Mot de passe" required />
-      <input list="browsers" style="display: none;" class="box-input">
-    
-    <datalist id="browsers">
-      <option value="Internet Explorer">
-      <option value="Firefox">
-      <option value="Google Chrome">
-      <option value="Opera">
-      <option value="Safari">
-    </datalist>
-        <input type="submit" name="submit" value="S'inscrire" class="box-button" />
-    </form>
-    <a href="/index.html">About</a>
-    </body>
+    <form class="container" action="" method="post">
+      <h1 class="box-title">S'inscrire</h1>
+      <input type="text" class="box-input" name="username" placeholder="Nom d'utilisateur" required />
+      <input type="text" class="box-input" name="email" placeholder="Email" required />
+      <input type="password" class="box-input" name="password" placeholder="Mot de passe" required />
+    <input list="browsers" style="display: none;" class="box-input">
+  
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Google Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+      <input type="submit" name="submit" value="S'inscrire" class="box-button" />
+  </form>
+  <a href="/index.html">About</a>
+  
+    <footer class="container">
+        <a href="index.html">About</a>
+        <a href="venue.html">Venue</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="register.html">Register</a>
+        <a href="contact.html">Contact</a>
+        <small><br><br>
+            Styles Conference &copy; 2025
+        </small> 
+    </footer>
+</body>
 </html>

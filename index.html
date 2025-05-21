@@ -3,85 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DStyles conference</title>
+    <title>Styles Conference</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+DK+Loopet:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Share+Tech&display=swap" 
+    rel="stylesheet">
 </head>
 <body>
   
-    <header>
-        <h1>Styles Conference</h1>
-        <ul>
-           <li><a href="/index.html">About</a></li>
-           <li><a href="/venu/html">Venue</a></li>
-           <li><a href="/speakers.html">Speakers</a></li>
-           <li><a href="/register">Register</a></li>
-           <li><a href="/contact.html">Contact</a></li>
-    </ul>
-       
+    <header class="primary-header group hero">
+        <h1 class="logo">Styles<br>Conference</h1>
+        <h3 class="tagline">August 24&ndash;26th &mdash; Chicago, IL</h3>
+         <!-- <nav class=" nav primary-nav">
+           <a href="index.html" class="btn btn-alt">About</a>
+           <a href="speakers.html" class="btn btn-alt">Speakers</a>
+           <a href="schedule.html" class="btn btn-alt">Schedule</a>
+           <a href="venue.html" class="btn btn-alt">Venue</a>
+           <a href="register.html" class="btn btn-alt">Register</a>
+        </nav>  -->
+         <nav class="nav primary-nav">
+        <a href="index.html">About</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue</a>
+        <a href="register.html">Register</a>
+        </nav>
     </header>
-    <section>
-    <section class="register">
-        <div class="register-content">
-            <h2>Dedicated to the Craft of Building Websites</h2>
-            <p>Every year the brighest web designers and front-end developers
-                descend on Chicago to discuss the latest technologies. Join us on August 15th!
-            </p>
-            <a href="/register.html">Register</a>
-        </div>
-        <div class="register-background">
-            <h2>Highlights from 2025</h2>
-            <p>Experience the best of Style Conference 2025. 
-                From keynotes to workshops, get inspired for
-                 this year's conference.</p>
-        </div>
-    </section>
-    <section class="schedule">
-        <h1>Schedule</h1>
-        <p>5:00 PM - 19:00 PM</p>
-        <a href="/schedule.html"> Schedule</a>
-    </section>
     
-    <section class="venue">
-            <h5>Speakers</h5>
-            <h3>World-Class Speakers</h3>
-            <p>Joining us from all around the world are over twenty fantastic speakers,
-               here to share theirs stories</p>
-    </section>
-
-    <section class="speakers">
-        <p>Our below speakers are professionals in tech</p>
-        <div> 
-            <div class="spon"><img src="images/avatar.png" alt="First image"></div>
-            <div class="spon"> <img src="images/avatar.png" alt="Second image"></div>
-            <div class="spon"><img src="images/avatar.png" alt="Third image"></div> 
-        </div>
-    </section>
-  
-    <section class="contact">
-        <div>
-            
-            <small><a href="mailto:narcisseisaker@gmail.com?subject=We%20welcome%20you&body=We%20are%20happy%20to%20meet%20you">Write Us</a></small>
-        </div>
-        <div>
-            <p>Call Us</p>
-            <small>(237) 657128141</small>
-        </div>
-        <div>
-            <p>Become a sponsor</p>
-            <small>(237) 676748643</small>
-        </div>
-         
-    </section>
+    <section class="grid">
+       <!-- Register--> 
+        <section class="register">
+                <h2>Dedicated to the Craft of Building Websites</h2>
+                <p>Every year the brighest web designers and front-end developers
+                    descend <br>on Chicago to discuss the latest technologies. Join us on August! <br><br>
+                <a href="register.html" class="btn btn-alt">Register Now</a>
+                </p>
+                
+        </section><!--
+        Speakers-->
+        <section class="teaser col-1-3">
+                <a href="speakers.html">
+                <h5>Speakers</h5>
+                <h3>World-Class Speakers</h3>
+                </a>
+                <p>Joining us from all around the world are over twenty fantastic speakers,
+                here to share theirs stories.</p>
+        </section><!--
+        Schedule-->
+        <section class="teaser col-1-3">
+                <a href="schedule.html">
+                <h5>Schedule</h5>
+                <h3>Three Inspiring Days</h3>
+                </a>
+                <p>Enjoy three inspiring and action packed days of talks, gatherings,
+                    and all around good times.
+                </p>
+        </section> <!--
+       Venue-->
+        <section class="teaser col-1-3">
+                <a href="venue.html">
+                <h5>Venue</h5>
+                <h3>The Chicago Theatre</h3>
+                </a>
+                <p>Within the heart of downtown Chicago,
+                    The Chicago Theatre will provide a 
+                    beautiful conference venue.
+                </p>
+        </section>
   </section>
-    <footer>
-        <a href="/index.html">About</a>
-        <a href="/venue.html">Venue</a>
-        <a href="/speakers.html">Speakers</a>
-        <a href="/register.html">Register</a>
-        <a href="/contact.html">Contact</a>
-        <small><br><br>
+  
+  <footer class="container primary-footer group">
+         <small>
             Styles Conference &copy; 2025
-        </small> 
-    </footer>
+        </small>
+        <nav class="nav">
+        <a href="index.html">About</a>
+        <a href="speakers.html">Speakers</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="venue.html">Venue</a>
+        <a href="register.html">Register</a>
+        </nav>
+ </footer>
 </body>
 </html>
